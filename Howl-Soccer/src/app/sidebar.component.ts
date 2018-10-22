@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
 	styleUrls: ['howl.style.css'],
 	selector: 'howlSidebar',
 	template:`
-		<div class="col-3 list-group theSide">
+		<div class="list-group theSide">
 			<a href="#" class="list-group-item list-group-item-action active">
 				About Us
 			</a>
@@ -12,7 +12,8 @@ import {Component} from "@angular/core";
 			<a href="#" class="list-group-item list-group-item-action">Who We Are</a>
 			<a href="#" class="list-group-item list-group-item-action">Current Staff</a>
 			<a href="#" class="list-group-item list-group-item-action">Contact Us</a>
-		</div>`
+		</div>
+	`
 })
 
 export class SidebarComponent{}
