@@ -13,29 +13,31 @@ import { HeaderComponent } from './header.component';
 import { SidebarComponent } from './sidebar.component';
 import { MenuTabComponent } from './menuTab.component';
 import { NavigationBarComponent } from './navigationBar.component';
+import { ContentPortComponent } from './contentPort.component';
 
 import { TruncatePipe } from './truncate.pipe';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProductsComponent,
-    ProductComponent,
-    RatingComponent,
-    TruncatePipe,
-    JumboTronComponent,
-    UserFormComponent,
-    HeaderComponent,
-    SidebarComponent,
-    MenuTabComponent,
-    NavigationBarComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		ProductsComponent,
+		ProductComponent,
+		RatingComponent,
+		TruncatePipe,
+		JumboTronComponent,
+		UserFormComponent,
+		HeaderComponent,
+		SidebarComponent,
+		MenuTabComponent,
+		NavigationBarComponent,
+	 ContentPortComponent
+	],
+	imports: [
+		BrowserModule,
+		FormsModule,
+		HttpModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
