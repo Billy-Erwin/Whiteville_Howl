@@ -9,6 +9,10 @@ import { ProductComponent } from './product.component';
 import { RatingComponent } from './rating.component';
 import { JumboTronComponent } from './jumboTron.component';
 import { UserFormComponent } from './user-form.component';
+import { HeaderComponent } from './header.component';
+import { SidebarComponent } from './sidebar.component';
+import { MenuTabComponent } from './menuTab.component';
+import { NavigationBarComponent } from './navigationBar.component';
 
 import { TruncatePipe } from './truncate.pipe';
 
@@ -20,7 +24,11 @@ import { TruncatePipe } from './truncate.pipe';
     RatingComponent,
     TruncatePipe,
     JumboTronComponent,
-    UserFormComponent
+    UserFormComponent,
+    HeaderComponent,
+    SidebarComponent,
+    MenuTabComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
