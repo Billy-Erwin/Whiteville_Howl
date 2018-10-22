@@ -4,7 +4,7 @@ import {MenuTabService} from "./menuTab.service";
 @Component({
 	selector: 'navigation-bar',
 	template:`
-		<nav class="container-fluid nav">
+		<nav class="navbar navbar-expand-lg justify-content-center">
 			<span *ngFor="let menuTab of menuTabs" >
 				<menu-tab [menuTabData]="menuTab"></menu-tab>
 			</span>
