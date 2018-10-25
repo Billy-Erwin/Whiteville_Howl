@@ -1,1 +1,5 @@
-<a class="nav-link menuTab" href="#">{{menuTabData.title}}</a>
+<a
+	class="nav-link menuTab"
+	(click)="updateSidebar(menuTabData.title)">
+	{{menuTabData.title}}
+</a>
