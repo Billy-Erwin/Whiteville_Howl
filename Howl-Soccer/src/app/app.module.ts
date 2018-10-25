@@ -30,7 +30,7 @@ import { TruncatePipe } from './truncate.pipe';
 		SidebarComponent,
 		MenuTabComponent,
 		NavigationBarComponent,
-	 ContentPortComponent
+		ContentPortComponent
 	],
 	imports: [
 		BrowserModule,

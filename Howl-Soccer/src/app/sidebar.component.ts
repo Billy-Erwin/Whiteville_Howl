@@ -1,19 +1,28 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
+import {SidebarService} from "./sidebar.service";
 
 @Component({
 	styleUrls: ['howl.style.css'],
 	selector: 'howlSidebar',
 	template:`
-		<div class="list-group theSide">
+		<div *ngIf="sidebarService.selectedSidebar" class="list-group theSide">
 			<a href="#" class="list-group-item list-group-item-action active">
-				About Us
+				{{sidebarService.selectedNav}}
 			</a>
-			<a href="#" class="list-group-item list-group-item-action">Our Mission</a>
-			<a href="#" class="list-group-item list-group-item-action">Who We Are</a>
-			<a href="#" class="list-group-item list-group-item-action">Current Staff</a>
-			<a href="#" class="list-group-item list-group-item-action">Contact Us</a>
+			<a *ngFor="let sideBarItem of sidebarService.selectedSidebar"
+				class="list-group-item list-group-item-action">
+				 {{sideBarItem}}
+			</a>
 		</div>
 	`
 })
 
-export class SidebarComponent{}
+export class SidebarComponent implements OnInit{
+
+	constructor(public sidebarService: SidebarService) {}
+
+	ngOnInit(){
+		this.sidebarService.setSelectedNav('Home');
+		this.sidebarService.setSidebar();
+	}
+}
