@@ -5,7 +5,9 @@ import {Component} from "@angular/core";
 	styleUrls: ['howl.style.css'],
 	template: `
 	<div class="contentPort">
-		There is some stuff in here
+		 <img src="app/images/logo_no_banner_blue.png"/><br />
+		<img src="app/images/logo_no_banner_bw.png"/><br />
+		<img src="app/images/logo_no_banner_grey.png"/><br />
 	</div>
 	`
 })
