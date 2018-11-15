@@ -1,3 +1,7 @@
+.mainBody{
+	background-color: #ced4da;
+}
+
 .main{
 	background-image: url("app/images/field.jpg");
 	/*background-image: url("app/images/howl_blank.png");*/
@@ -5,37 +9,56 @@
 	background-repeat: no-repeat;
 	height: 300px;
 	border-radius: 0rem;
-	margin-top: 75px;
+	margin-top: 56px;
 }
+
 .theSide {
 	border-radius: .3rem;
 }
+
 .menuTab{
 	color: black;
+	cursor: pointer;
 }
+
 .menuTabImg{
 	height: 40px;
-	width: 40px;
+	width: 70px;
+	cursor: pointer;
 }
+
 .list-group-item.active {
-	background-color: mediumblue;
+	background-color: #0000ff;
 }
+
 .contentPort{
 	height: 500px;
-	border: 2px solid black;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
 	overflow-y: scroll;
+	background: white;
 }
+
 nav{
-	background-color: #9e9e9e;
+	background-color: #b3b3b3;
 }
+
 .stayThere{
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 100;
 }
+
 .sponsors{
 	height:200px;
-	border: 2px solid red;
+	border: 1px solid rgba(0,0,0,.125);
 	margin-top:75px;
+	background: #b3b3b3;
 }
+
+.howlFooter{
+	height: 50px;
+	background-color: #0000ff;
+}
+

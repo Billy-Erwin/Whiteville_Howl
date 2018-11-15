@@ -5,7 +5,7 @@ import {SidebarService} from "./sidebar.service";
 	styleUrls: ['howl.style.css'],
 	selector: 'howlSidebar',
 	template:`
-		<div *ngIf="sidebarService.selectedSidebar" class="list-group theSide">
+		<div *ngIf="sidebarService.selectedSidebar && sidebarService.getSelectedNav() !== 'Home'" class="list-group theSide">
 			<a href="#" class="list-group-item list-group-item-action active">
 				{{sidebarService.selectedNav}}
 			</a>

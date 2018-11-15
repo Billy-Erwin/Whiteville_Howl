@@ -10,6 +10,7 @@ import { MenuTabComponent } from './menuTab.component';
 import { NavigationBarComponent } from './navigationBar.component';
 import { ContentPortComponent } from './contentPort.component';
 import { SponsorsComponent } from './sponsors.component';
+import { FooterComponent } from './footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SponsorsComponent } from './sponsors.component';
 		MenuTabComponent,
 		NavigationBarComponent,
 		ContentPortComponent,
-		SponsorsComponent
+		SponsorsComponent,
+		FooterComponent
 	],
 	imports: [
 		BrowserModule,
