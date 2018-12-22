@@ -1,9 +1,0 @@
-<img
-	*ngIf="menuTabData.img" (click)="updateSidebar(menuTabData.title)"
-	class="menuTabImg"
-	src="{{menuTabData.img}}"/>
-<a *ngIf="menuTabData.img == null"
-	class="nav-link menuTab"
-	(click)="updateSidebar(menuTabData.title)">
-	{{menuTabData.title}}
-</a>
