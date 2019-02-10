@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 @Component({
 	selector: 'body-2',
 	template:`
-		<div class="container" style="border:10px solid black;">
+		<div class="container">
 			<div
 				id="carouselExampleSlidesOnly"
 				class="carousel slide"
@@ -30,6 +30,7 @@ import {Component} from "@angular/core";
 				</div>
 			</div>
 		</div>
+		<email-form></email-form>
 	`,
 	styleUrls: ['howl.style.css']
 })
