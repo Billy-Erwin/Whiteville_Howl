@@ -1,0 +1,110 @@
+.mainBody{
+	background-color: #ced4da;
+}
+
+.main{
+	background-image: url("../assets/images/field.jpg");
+	/*background-image: url("app/images/howl_blank.png");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	border-radius: 0rem;
+	margin-top: 56px;
+}
+
+.homeIcon{
+	background-image: url("../assets/images/field.jpg");
+}
+
+.theSide {
+	border-radius: .3rem;
+}
+
+.menuTab{
+	color: black;
+	cursor: pointer;
+}
+
+.menuTabImg{
+	height: 40px;
+	width: 70px;
+	cursor: pointer;
+}
+
+.list-group-item.active {
+	background-color: #0000ff;
+}
+
+.contentPort{
+	height: 500px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	overflow-y: scroll;
+	background: white;
+}
+
+nav{
+	background-color: #b3b3b3;
+}
+
+.stayThere{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.sponsors{
+	height:200px;
+	border: 1px solid rgba(0,0,0,.125);
+	margin-top:75px;
+	background: #b3b3b3;
+}
+
+.howlFooter{
+	height: 50px;
+	background-color: #0000ff;
+}
+
+.body2{
+	height:300px;
+	width:300px;
+}
+
+.carousel-inner > .carousel-item > img {
+	margin: 0 auto;
+}
+
+.fa {
+	padding: 15px 10px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	color: white;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+.fa-instagram {
+	color: white;
+}
+
+.contactUs {
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.socialMediaLinks {
+	padding-right: 30px;
+}

@@ -4,11 +4,10 @@ import {Component} from "@angular/core";
 	selector: 'content-port',
 	styleUrls: ['howl.style.css'],
 	template: `
-	<div class="contentPort">
-		There is some stuff in here
-	</div>
+	<div class="contentPort"></div>
 	`
 })
+
 export class ContentPortComponent{
 
 }
