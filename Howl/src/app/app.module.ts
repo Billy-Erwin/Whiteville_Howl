@@ -14,7 +14,7 @@ import { FooterComponent } from './footer.component';
 import { Body1 } from './body1';
 import { Body2 } from './body2.component';
 import {SocialMediaComponent} from "./socialMedia.component";
-import {EmailFormComponent} from "./emailForm.component";
+import {EmailFormComponent} from "./emailComponent/emailForm.component";
 
 @NgModule({
 	declarations: [

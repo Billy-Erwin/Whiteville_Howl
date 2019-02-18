@@ -5,7 +5,7 @@ import {EmailForm} from "./email-form";
 @Component({
 	selector: 'email-form',
 	templateUrl: 'emailForm.component.html',
-	styleUrls: ['howl.style.css']
+	styleUrls: ['../howl.style.css']
 })
 
 export class EmailFormComponent{

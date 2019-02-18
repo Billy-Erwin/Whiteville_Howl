@@ -3,7 +3,7 @@ import {Component} from "@angular/core";
 @Component({
 	selector: 'body-2',
 	template:`
-		<div class="container">
+		<div class="container pictureShow">
 			<div
 				id="carouselExampleSlidesOnly"
 				class="carousel slide"

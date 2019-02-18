@@ -4,7 +4,6 @@
 
 .main{
 	background-image: url("../assets/images/field.jpg");
-	/*background-image: url("app/images/howl_blank.png");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -61,6 +60,15 @@ nav{
 	background: #b3b3b3;
 }
 
+.sponsorForm{
+	width: 400px;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	background: #b3b3b3;
+	padding: 20px;
+	margin: 10px;
+}
+
 .howlFooter{
 	height: 50px;
 	background-color: #0000ff;
@@ -69,6 +77,11 @@ nav{
 .body2{
 	height:300px;
 	width:300px;
+}
+
+.pictureShow{
+	width:500px;
+	border:1px solid black;
 }
 
 .carousel-inner > .carousel-item > img {
