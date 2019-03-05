@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +15,7 @@ import { FooterComponent } from './footer.component';
 import { Body1 } from './body1';
 import { Body2 } from './body2.component';
 import {SocialMediaComponent} from "./socialMedia.component";
-import {EmailFormComponent} from "./emailForm.component";
+import {EmailFormComponent} from "./emailComponent/emailForm.component";
 
 @NgModule({
 	declarations: [
@@ -34,7 +35,8 @@ import {EmailFormComponent} from "./emailForm.component";
 	imports: [
 		BrowserModule,
 		FormsModule,
-		AppRoutingModule
+		AppRoutingModule,
+		HttpClientModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
