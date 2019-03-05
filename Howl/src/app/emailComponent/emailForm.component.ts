@@ -1,5 +1,5 @@
-import {Component, Input} from "@angular/core";
-
+import {Component} from "@angular/core";
+import {EmailService} from "./email.service";
 import {EmailForm} from "./email-form";
 
 @Component({
@@ -20,9 +20,13 @@ export class EmailFormComponent{
 
 	submitted = false;
 
+	constructor(private emailService: EmailService) {}
+
+
 	onSubmit() {
 		this.submitted = true;
-		console.log(JSON.stringify(this.model));
+		// console.log(JSON.stringify(this.model));
+		this.emailService.getUser(this.model).subscribe(data => console.log(data));
 	}
 
 	// TODO: Remove this when we're done
